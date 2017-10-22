@@ -1,0 +1,12 @@
+{
+  "name": "raft",
+  "description": "Small sample web application to demonstrate testing, continuous integration, and continuous deployment techniques.",
+  "author": "Andrei Lapets",
+  "version": "0.0.1",
+  "devDependencies": {
+    "jshint": "^2.9.5"
+  },
+  "scripts": {
+    "test": "jshint raft.js"
+  }
+}
