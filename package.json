@@ -4,7 +4,8 @@
   "author": "Andrei Lapets",
   "version": "0.0.1",
   "devDependencies": {
-    "jshint": "^2.9.5"
+    "jshint": "^2.9.5",
+    "mocha": "*"
   },
   "scripts": {
     "test": "jshint raft.js && mocha"
