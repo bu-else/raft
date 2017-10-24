@@ -4,11 +4,11 @@ node_js:
  - "iojs"
  - "6"
  - "7"
-#os:
-#  - linux
-#  - osx
-#matrix:
-#  allow_failures:
-#    - os: osx
+os:
+  - linux
+  - osx
+matrix:
+  allow_failures:
+    - os: osx
 notifications:
    email: false
