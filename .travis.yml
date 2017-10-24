@@ -1,8 +1,8 @@
 language: node_js
 node_js:
-# - "node"
-# - "iojs"
-# - "6"
+ - "node"
+ - "iojs"
+ - "6"
  - "7"
 #os:
 #  - linux
