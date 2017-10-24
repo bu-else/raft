@@ -1,5 +1,14 @@
 language: node_js
 node_js:
  - "node"
+ - "iojs"
+ - "6"
+ - "7"
+os:
+  - linux
+  - osx
+matrix:
+  allow_failures:
+    - os: osx
 notifications:
    email: false
